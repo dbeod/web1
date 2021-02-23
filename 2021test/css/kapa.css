@@ -111,6 +111,13 @@ section_inner{display: table;
 
 @media screen and (max-width: 768px) {
   /*and와 괄호 붙이면 오류남 --> and(  */
+  .container{
+  background:url('../img/ho_office.png')no-repeat;
+  width: 50% 0;
+  height:100vh;
+  margin-top: -100px;
+  z-index: 0;    
+}
   .navbar {
     flex-direction: column;
     align-items: flex-start;
