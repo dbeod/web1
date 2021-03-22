@@ -57,3 +57,6 @@ p {
   color: var(--color-black);
   margin: 4px 0;
 }
+
+/* Universal tag */
+*{box-sizing: border-box;}
