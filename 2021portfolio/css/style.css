@@ -42,7 +42,8 @@ body{
 }
 a{
   text-decoration: none;
-color: var(--color-white);}
+  color: var(--color-white);
+}
 ul{
   padding-left: 0;
   }
@@ -374,11 +375,11 @@ p {
 .contact__link{
   font-size: var(--font-large);
   margin:24px 0;
-  transition: all var(--animation-duration) ease-in;
 }
 .contact__link i:hover{
   transform: scale(1.1);
   color:var(--color-yellow);
+  transition: all var(--animation-duration) ease-in;
 }
 
 /* mobile */
